@@ -1,0 +1,26 @@
+// Vista para tablet
+
+@media only screen and (min-width: 768px) and (max-width:991px)
+{
+    // Index
+
+    .marketing h2 {
+        font-weight: 16px;color: white;
+    }
+    .marketing{
+        p{
+            color: white;
+        }
+        
+    }
+      .marketing .col-lg-4 p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+    }
+
+    .col-lg-3{padding-left: 30%;}
+    
+    .disk{height: 35%;width: 35%;padding-left: 20%;}
+    .www{height: 35%;width: 35%;padding-left: 20%;}
+    .camara{height: 35%;width: 35%;padding-left: 20%;}
+}

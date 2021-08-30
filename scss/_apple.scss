@@ -1,0 +1,23 @@
+/* CSS para Apple*/
+
+/* variables para sección Apple */
+$familia:'Roboto', sans-serif;
+$fondoCaja: linear-gradient(to bottom,#711313,#dc6262);
+
+.img-fluid{border-radius: 5px;padding-bottom: 2%;margin-top: 3%;}
+.apple{background: linear-gradient(to left bottom,#b6b1b1,rgba(238, 232, 232, 0.883));justify-content: center;}
+.apple-elemento--estilo-caja{background:$fondoCaja;padding-top: 2%;margin-top: 3%;height: 93%;}
+.apple-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
+.apple-elemento{
+    ul{
+        margin-left: 10%;color: white;
+        font: {family:$familia;size:20px;}        
+    }
+} 
+.apple--elemento{
+    li{
+        display: flex;justify-content: center;
+    }
+} 
+.apple-elemento--lista-estilo{list-style: none;}
+.ipad-foto--estilo{height: 96.4%;width: 105%;}

@@ -1,0 +1,37 @@
+/* variables */
+$gradienteFooter: linear-gradient(to bottom,#333333,rgba(0, 0, 0, 0.883));
+$alturaFooter: 160px;
+$opacidadIconos: 0.7;
+
+.footer--estilo{background: $gradienteFooter;text-align: center;padding-top: 40px;padding-bottom:30px;
+    height: $alturaFooter;justify-content: center;align-items: center;align-content: center;
+}
+
+.footer--div-webmaster{padding-bottom: 40px;text-align:left;padding-left: 10px;}
+
+.footer--estilo-H3 {color: white; font-family: 'Roboto', sans-serif;font-size:16px;padding-top: 10%;}
+
+.footer--redes-sociales{padding-right:15px !important;text-align:right;}
+   /* iconos de redes sociales CSS */
+
+/* Mixin */
+
+@mixin estiloRedes ($width, $padding-right){
+    width: $width;
+    padding-right: $padding-right;
+}
+.facebook{
+    @include estiloRedes(50px,10px); height: 40px;
+}
+.instagram{
+    @include estiloRedes(50px,10px)
+}
+.twitter{
+    @include estiloRedes(50px, 10px)
+}
+.youtube{width:45px;height: 40px;}
+
+.facebook:hover{opacity:$opacidadIconos;}
+.instagram:hover{opacity:$opacidadIconos;}
+.twitter:hover{opacity:$opacidadIconos;}
+.youtube:hover{opacity:$opacidadIconos;}

@@ -1,0 +1,22 @@
+
+/* CSS para Noticias */
+/* variables para Css Noticias */
+
+$fondo-body:linear-gradient(to left bottom,#ddd9d9,rgba(238, 232, 232, 0.883));
+
+.body-noticias{background:$fondo-body; }
+
+.contenido-noticias--borde-noticia{margin-left: 15%;margin-right: 15%;border-left: 1px solid black;border-right: 1px solid black;
+    border-radius: 4px;border-top: 1px solid black;border-bottom: 1px solid black;margin-top: 10px;margin-bottom: 15px;box-shadow: 7px 13px 37px #000;
+}
+.contenido-noticias--titulo-noticia{text-align: center;font-family: 'Roboto', sans-serif;font-weight: bold;padding-top: 10px;}
+.contenido-noticias--estilo-texto-noticia{font-family: 'Roboto', sans-serif;font-weight: normal;font-size: 18px;text-align: justify;padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contenido-noticias--img-noticia{
+    padding-bottom: 10px;height: 100%;width: 40%;margin-left: auto;margin-right: auto;display: block;
+}
+
+.videos{display: flex;
+    justify-content: center;padding-bottom: 1%;}

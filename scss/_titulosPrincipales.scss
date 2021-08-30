@@ -1,0 +1,11 @@
+/* CSS para titulos Principales en secciones */
+
+/* Variables para titulos principales */
+
+$sombreado: 2px 2px 4px white;
+
+.titulo-principal--estilo{background-color:black; 
+    color: white;text-shadow:$sombreado;
+    padding-top: 0.5%; padding-bottom:0.5%;
+    font-family: 'Roboto', sans-serif;font-size:26px;text-align: center;font-weight: bold;
+}

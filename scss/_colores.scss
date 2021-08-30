@@ -1,0 +1,38 @@
+/* CSS colores borde Gradiante animado */
+
+/* variables para borde gradiente animado */
+$gradiente:linear-gradient(270deg,  #ee7752,#e73c7e,#23a605,#23d5ab);
+$tamanio: 800%;
+$altura: 4px;
+
+.css-selector-bordeDegradee {
+    background: $gradiente;
+    background-size: $tamanio $tamanio;
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+	height: $altura;
+    
+	
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

@@ -1,0 +1,51 @@
+/* variables index */
+$fondoBodyIndex: linear-gradient(to left,#333333,rgba(0, 0, 0, 0.883));
+
+/*Google Fonts */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
+
+
+.carousel-item{
+    height: 35rem;
+    background-size:cover;
+    background-position: center center;
+}
+/* CSS Body Index */
+
+.body-index{background-image:$fondoBodyIndex;}
+
+/* CSS para fotos carousel */
+
+.img-aurora4{background-image:url(../assets/img/aurora4.png);}
+.img-cloud2{background-image:url(../assets/img/cloud2.png);}
+.img-code1{background-image:url(../assets/img/code2.png);}
+.img-security1{background-image:url(../assets/img/security2.png);}
+.img-programming{background-image:url(../assets/img/programming.png);}
+
+/* Center align the text within the three columns below the carousel */
+.marketing{border-radius: 5px; justify-content:center;margin-top: 2%;margin-left: 5%;/* background: linear-gradient(to left,#e9e7e7b7,rgba(99, 98, 98, 0.797)); */
+    margin-right: 5%;margin-bottom: 5%;
+}
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+  .marketing h2 {
+    font-weight: 400;color: white;
+}
+.marketing{
+    p{
+        color: white;
+    }
+}
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.disk{height: 40%;width: 40%;}
+.www{height: 40%;width: 40%;}
+.camara{height: 40%;width: 40%;}
+
+
+
