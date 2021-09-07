@@ -652,18 +652,18 @@
   padding-bottom: 2%;
   margin-top: 3%; }
 
-.ms-linux {
-  background: linear-gradient(to left bottom, #b6b1b1, rgba(238, 232, 232, 0.883));
+.redes-seg {
+  background: linear-gradient(to bottom, #8d8c8c, rgba(238, 232, 232, 0.883));
   justify-content: center; }
 
-.ms-elemento--estilo-caja {
-  background: linear-gradient(to bottom, #010008, #080350);
+.seg-elemento--estilo-caja {
+  background: linear-gradient(to bottom, #4d39d3, #080350);
   padding-top: 2%;
   margin-top: 3%;
   height: 93%;
   border-radius: 5px; }
 
-.ms-elemento--estilo-h2 {
+.seg-elemento--estilo-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -671,27 +671,27 @@
   padding-bottom: 2%;
   color: white; }
 
-.ms-elemento ul {
+.seg-elemento ul {
   margin-left: 10%;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px; }
 
-.ms--elemento li {
+.seg--elemento li {
   display: flex;
   justify-content: center; }
 
-.ms-elemento--lista-estilo {
+.seg-elemento--lista-estilo {
   list-style: none; }
 
-.linux-elemento--estilo-caja {
-  background: linear-gradient(to bottom, #0c6bb8, #5eb7eb);
+.redes-elemento--estilo-caja {
+  background: linear-gradient(to bottom, #073820, #0a9649);
   padding-top: 2%;
   margin-top: 3%;
   height: 93%;
   border-radius: 5px; }
 
-.linux-elemento--estilo-h2 {
+.redes-elemento--estilo-h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   text-align: center;
@@ -699,15 +699,15 @@
   padding-bottom: 2%;
   color: white; }
 
-.linux-elemento ul {
+.redes-elemento ul {
   margin-left: 10%;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 20px; }
 
-.linux--elemento li {
+.redes--elemento li {
   display: flex;
   justify-content: center; }
 
-.linux-elemento--lista-estilo {
+.redes-elemento--lista-estilo {
   list-style: none; }

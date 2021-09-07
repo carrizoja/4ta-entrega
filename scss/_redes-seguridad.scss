@@ -5,39 +5,39 @@
 /* Css para Seguridad */
 
 $familia:'Roboto', sans-serif;
-$fondoCaja-ms: linear-gradient(to bottom,#010008,#080350);
-$fondoCaja-linux: linear-gradient(to bottom,#0c6bb8,#5eb7eb);
+$fondoCaja-seg: linear-gradient(to bottom,#4d39d3,#080350);
+$fondoCaja-redes: linear-gradient(to bottom,#073820,#0a9649);
 
 .img-fluid{border-radius: 5px;padding-bottom: 2%;margin-top: 3%;}
-.ms-linux{background: linear-gradient(to left bottom,#b6b1b1,rgba(238, 232, 232, 0.883));justify-content: center;}
-.ms-elemento--estilo-caja{background:$fondoCaja-ms;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
-.ms-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
-.ms-elemento{
+.redes-seg{background: linear-gradient(to bottom,#8d8c8c,rgba(238, 232, 232, 0.883));justify-content: center;}
+.seg-elemento--estilo-caja{background:$fondoCaja-seg;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
+.seg-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
+.seg-elemento{
     ul{
         margin-left: 10%;color: white;
         font: {family:$familia;size:20px;}        
     }
 } 
-.ms--elemento{
+.seg--elemento{
     li{
         display: flex;justify-content: center;
     }
 } 
-.ms-elemento--lista-estilo{list-style: none;}
+.seg-elemento--lista-estilo{list-style: none;}
 
 // Css para Linux
 
-.linux-elemento--estilo-caja{background:$fondoCaja-linux;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
-.linux-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
-.linux-elemento{
+.redes-elemento--estilo-caja{background:$fondoCaja-redes;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
+.redes-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
+.redes-elemento{
     ul{
         margin-left: 10%;color: white;
         font: {family:$familia;size:20px;}        
     }
 } 
-.linux--elemento{
+.redes--elemento{
     li{
         display: flex;justify-content: center;
     }
 } 
-.linux-elemento--lista-estilo{list-style: none;}
+.redes-elemento--lista-estilo{list-style: none;}
