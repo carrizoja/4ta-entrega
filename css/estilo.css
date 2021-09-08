@@ -423,11 +423,11 @@
 .foto--networking-foto {
   padding-top: 1%;
   height: 100%;
-  width: 99%;
+  width: 98%;
   border-radius: 4px;
   border-bottom-left-radius: 4px;
   padding-bottom: 1%;
-  margin-right: 5%; }
+  /* margin-right: 5%; */ }
 
 /* CSS para Apple*/
 /* variables para sección Apple */
@@ -475,7 +475,7 @@
   .contenido-nosotros--estilo h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding-top: 2%;
     padding-left: 20px;
@@ -483,11 +483,30 @@
   .contenido-nosotros-1--estilo h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 1%;
     padding-left: 20px;
     padding-right: 20px; }
+  .foto--database-foto {
+    padding-top: 1%;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-bottom: 1%; }
+  .foto--it-service-foto {
+    padding-left: 1%;
+    height: 100%;
+    width: 100%;
+    padding-top: 1%; }
+  .foto--networking-foto {
+    padding-top: 1%;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-bottom: 1%; }
   .contenido-noticias--titulo-noticia {
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -496,6 +515,17 @@
   .contenido-noticias--titulo-noticia h2 {
     font-size: 20px;
     font-weight: bold; }
+  .contenido-noticias--borde-noticia {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 4px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 7px 13px 37px #000; }
   .contact-form h3 {
     margin-bottom: 8%;
     margin-top: -10%;
@@ -523,7 +553,8 @@
   .footer--div-webmaster {
     padding-bottom: 40px;
     text-align: right;
-    padding-left: 1%; }
+    padding-left: 1%;
+    padding-right: 1%; }
   .footer--estilo-H3 {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -537,8 +568,7 @@
   .marketing .col-lg-4 p {
     margin-right: .75rem;
     margin-left: .75rem; }
-  .col-lg-3 {
-    padding-left: 20%; }
+  /* .col-lg-3{padding-left: 20%;} */
   .disk {
     height: 35%;
     width: 35%;
@@ -550,7 +580,95 @@
   .camara {
     height: 35%;
     width: 35%;
-    padding-left: 20%; } }
+    padding-left: 20%; }
+  .apple-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px; }
+  .apple-elemento ul {
+    margin-left: 10%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px; }
+  .ms-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px; }
+  .ms-elemento ul {
+    margin-left: 10%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; }
+  .ms-elemento--lista-estilo li {
+    font-size: 15px; }
+  .linux-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px; }
+  .linux-elemento ul {
+    margin-left: 10%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; }
+  .linux-elemento .linux-elemento--lista-estilo {
+    font-size: 15px; }
+  .seg-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px; }
+  .seg-elemento ul {
+    margin-left: 10%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px; }
+  .seg-elemento .seg-elemento--lista-estilo {
+    font-size: 15px; }
+  .redes-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px; }
+  .redes-elemento ul {
+    margin-left: 10%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px; }
+  .redes-elemento .redes-elemento--lista-estilo {
+    font-size: 15px; }
+  .disenio-elemento--lista-estilo li {
+    font-size: 15px; }
+  .disenio-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-size: 20px; }
+  .disenio-elemento ul {
+    margin-left: 10%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .marketing h2 {
@@ -711,3 +829,50 @@
 
 .redes-elemento--lista-estilo {
   list-style: none; }
+
+/* CSS para Diseño Web*/
+/* variables para sección Diseño Web */
+/* Css para Diseño */
+.img-fluid {
+  border-radius: 5px;
+  padding-bottom: 2%;
+  margin-top: 3%; }
+
+.disenio {
+  background: linear-gradient(to left bottom, #b6b1b1, rgba(238, 232, 232, 0.883));
+  justify-content: center; }
+
+.disenio-elemento--estilo-caja {
+  background: linear-gradient(to bottom, #010008, #080350);
+  padding-top: 2%;
+  margin-top: 3%;
+  height: 93%;
+  border-radius: 5px; }
+
+.disenio-elemento--estilo-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: white; }
+
+.disenio-elemento ul {
+  margin-left: 10%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px; }
+
+.disenio--elemento li {
+  display: flex;
+  justify-content: center; }
+
+.disenio-elemento--lista-estilo {
+  list-style: none; }
+
+.disenio3 {
+  height: 95%;
+  width: 110%; }
+
+.disenio2 {
+  height: 95%; }
