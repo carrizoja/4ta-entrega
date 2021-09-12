@@ -54,12 +54,14 @@
     .mapa-google--posicion{text-align: center;padding-top: 2%;padding-bottom: 2%;}
 
     // Footer
-    .footer--redes-sociales{padding-right:35% !important;text-align:right;padding-bottom: 10%;justify-content: flex-end;}
-    .footer--div-webmaster{padding-bottom: 40px;text-align:right;padding-left:1%;padding-right: 1%;}
-    .footer--estilo-H3 {color: white; font-family: 'Roboto', sans-serif;font-size:14px;padding-top: 10%;}
+    .footer { h4 {padding-top: 1%;}}
 
     // Index
-
+    .carousel-item{
+        height: 25rem;
+        background-size:cover;
+        background-position: center center;
+    }
     .marketing h2 {
         font-weight: 16px;color: white;
     }
