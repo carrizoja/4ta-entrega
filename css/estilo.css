@@ -1,39 +1,5 @@
 @charset "UTF-8";
 /* variables */
-/* $gradienteFooter: linear-gradient(to bottom,#333333,rgba(0, 0, 0, 0.883));
-$alturaFooter: 160px;
-$opacidadIconos: 0.7;
-
-.footer--estilo{background: $gradienteFooter;text-align: center;padding-top: 40px;padding-bottom:30px;
-    height: $alturaFooter;justify-content: center;align-items: center;align-content: center;
-}
-
-.footer--div-webmaster{padding-bottom: 40px;text-align:left;padding-left: 10px;}
-
-.footer--estilo-H3 {color: white; font-family: 'Roboto', sans-serif;font-size:16px;padding-top: 10%;}
-
-.footer--redes-sociales{padding-right:15px !important;text-align:right;} */
-/* iconos de redes sociales CSS */
-/* Mixin */
-/* @mixin estiloRedes ($width, $padding-right){
-    width: $width;
-    padding-right: $padding-right;
-}
-.facebook{
-    @include estiloRedes(50px,10px); height: 40px;
-}
-.instagram{
-    @include estiloRedes(50px,10px)
-}
-.twitter{
-    @include estiloRedes(50px, 10px)
-}
-.youtube{width:45px;height: 40px;}
-
-.facebook:hover{opacity:$opacidadIconos;}
-.instagram:hover{opacity:$opacidadIconos;}
-.twitter:hover{opacity:$opacidadIconos;}
-.youtube:hover{opacity:$opacidadIconos;} */
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
 * {
   margin: 0px;
@@ -44,9 +10,6 @@ $opacidadIconos: 0.7;
 .footer {
   background: linear-gradient(#3f3e3e, black);
   background-size: cover; }
-
-.redes-sociales--padding a {
-  padding-left: 1%; }
 
 .webmaster {
   color: #cecece;
@@ -93,7 +56,8 @@ $opacidadIconos: 0.7;
   margin-bottom: 10%;
   color: #cecece;
   font-family: 'Roboto', sans-serif;
-  text-align: center; }
+  text-align: center;
+  padding-left: 1%; }
 
 .second h4 {
   font-size: 18px;
@@ -196,6 +160,17 @@ $opacidadIconos: 0.7;
   margin-top: 100px;
   margin-bottom: 100px; }
 
+.redes-sociales--padding a {
+  padding-left: 1%; }
+
+.ubicacion {
+  height: 20px;
+  padding-right: 1%; }
+
+.mail1 {
+  height: 18px;
+  padding-right: 1%; }
+
 /* CSS General */
 * {
   margin: 0;
@@ -233,7 +208,7 @@ $opacidadIconos: 0.7;
   height: 60px; }
 
 .navbar {
-  background-image: linear-gradient(to left, #333333, rgba(0, 0, 0, 0.883)); }
+  background-image: linear-gradient(to left, #333333, black); }
 
 .navbar-nav .nav-link {
   color: white !important;
@@ -243,7 +218,7 @@ $opacidadIconos: 0.7;
   color: #0fdf0f !important; }
 
 .colNavBar {
-  background-image: linear-gradient(to left, #333333, rgba(0, 0, 0, 0.883)); }
+  background-image: linear-gradient(to left, #333333, black); }
 
 .navbar li a {
   vertical-align: top;
@@ -311,7 +286,12 @@ $opacidadIconos: 0.7;
 
 /* CSS Body Index */
 .body-index {
-  background-image: linear-gradient(to left, #333333, rgba(0, 0, 0, 0.883)); }
+  background-image: linear-gradient(to left, #333333, black); }
+
+.stickyNav {
+  position: sticky;
+  z-index: 9999;
+  top: 0; }
 
 /* CSS para fotos carousel */
 .img-aurora4 {
@@ -468,7 +448,8 @@ $opacidadIconos: 0.7;
   color: #fff;
   cursor: pointer;
   font-family: "Roboto";
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 25%; }
 
 .contact-form .btnContacto:hover, .contact-form .btnContactoLimpiar:hover {
   background: linear-gradient(to left bottom, #555454, rgba(238, 232, 232, 0.883)); }

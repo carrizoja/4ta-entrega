@@ -64,6 +64,7 @@ $estiloBoton: (
     cursor:map-get($estiloBoton,cursor);
     font-family:map-get($estiloBoton,fFamily);
     font-weight:map-get($estiloBoton,fWeight);
+    margin-left: 25%;
 }
 
 .contact-form .btnContacto:hover{
@@ -81,6 +82,7 @@ $estiloBoton: (
     border: none;
     cursor: pointer;
     flex-direction: row;
+    
 }
 
 /* Extend para botón Limpiar */

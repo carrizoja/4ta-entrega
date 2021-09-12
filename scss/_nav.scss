@@ -6,7 +6,7 @@ $hoverNav: rgb(15, 223, 15);
 
 /* CSS para NAV */
 .navbar__logo {width:80px;padding-left: 30%;height: 60px;}
-.navbar{background-image:linear-gradient(to left,#333333,rgba(0, 0, 0, 0.883));}
+.navbar{background-image:linear-gradient(to left,#333333,rgba(0, 0, 0, 1 /* 0.883 */));}
 .navbar-nav .nav-link {
     color:white !important;padding-left: 60px !important;
     
@@ -17,7 +17,7 @@ $hoverNav: rgb(15, 223, 15);
 
 
 
-.colNavBar{background-image:linear-gradient(to left,#333333,rgba(0, 0, 0, 0.883));}
+.colNavBar{background-image:linear-gradient(to left,#333333,rgba(0, 0, 0, 1));}
 
 .navbar li a{
     

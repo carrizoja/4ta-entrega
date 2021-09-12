@@ -1,5 +1,5 @@
 /* variables index */
-$fondoBodyIndex: linear-gradient(to left,#333333,rgba(0, 0, 0, 0.883));
+$fondoBodyIndex: linear-gradient(to left,#333333,rgba(0, 0, 0, 1));
 
 /*Google Fonts */
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap);
@@ -12,7 +12,9 @@ $fondoBodyIndex: linear-gradient(to left,#333333,rgba(0, 0, 0, 0.883));
 }
 /* CSS Body Index */
 
-.body-index{background-image:$fondoBodyIndex;}
+.body-index{background-image:$fondoBodyIndex;} 
+
+.stickyNav{position:sticky;z-index: 9999;top: 0;}
 
 /* CSS para fotos carousel */
 
