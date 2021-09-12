@@ -332,7 +332,7 @@
 
 /* Extend para botón Limpiar */
 .contact-form .btnContactoLimpiar {
-  background: linear-gradient(to left, #1714d1, #0e84e6); }
+  background: linear-gradient(to left, #110dcf, #6b69db); }
 
 .mapa-google-div {
   border-radius: 4px;
@@ -876,3 +876,8 @@
 
 .disenio2 {
   height: 95%; }
+
+@media only screen and (min-width: 1024px) {
+  .mapa-google--tamanio {
+    width: 99%;
+    height: 300px; } }
