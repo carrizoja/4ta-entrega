@@ -299,13 +299,13 @@
   background-image: url(../assets/img/bienvenidos.png); }
 
 .img-cloud2 {
-  background-image: url(../assets/img/cloud2.png); }
+  background-image: url(../assets/img/ai.jpg); }
 
 .img-code1 {
-  background-image: url(../assets/img/code2.png); }
+  background-image: url(../assets/img/networking3.jpg); }
 
 .img-security1 {
-  background-image: url(../assets/img/security2.png); }
+  background-image: url(../assets/img/cybersecurity.jpg); }
 
 .img-programming {
   background-image: url(../assets/img/programming.png); }
@@ -846,7 +846,14 @@
   .camara {
     height: 35%;
     width: 35%;
-    padding-left: 20%; } }
+    padding-left: 20%; }
+  .disenio3 {
+    height: 60%;
+    width: 100%; }
+  .disenio2 {
+    height: 40%; }
+  .disenio1 {
+    height: 96%; } }
 
 /* CSS para Microsoft-Linux*/
 /* variables para sección Microsoft-Linux */
@@ -1030,6 +1037,9 @@
 
 .disenio2 {
   height: 95%; }
+
+.disenio1 {
+  height: 96%; }
 
 @media only screen and (min-width: 1024px) {
   .mapa-google--tamanio {
