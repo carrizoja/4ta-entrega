@@ -280,7 +280,7 @@
 /* variables index */
 /*Google Fonts */
 .carousel-item {
-  height: 35rem;
+  height: 30rem;
   background-size: cover;
   background-position: center center; }
 
@@ -295,7 +295,7 @@
 
 /* CSS para fotos carousel */
 .img-aurora4 {
-  background-image: url(../assets/img/aurora4.png); }
+  background-image: url(../assets/img/bienvenidos.png); }
 
 .img-cloud2 {
   background-image: url(../assets/img/cloud2.png); }
@@ -308,6 +308,15 @@
 
 .img-programming {
   background-image: url(../assets/img/programming.png); }
+
+.img-aurora4 h3 {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  padding-top: 4%;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 2px 2px 4px white; }
 
 /* Center align the text within the three columns below the carousel */
 .marketing {
@@ -686,6 +695,13 @@
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%; }
+  .img-aurora4 h3 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif; }
   .carousel-item {
     height: 25rem;
     background-size: cover;
@@ -1017,4 +1033,32 @@
 @media only screen and (min-width: 1024px) {
   .mapa-google--tamanio {
     width: 99%;
-    height: 300px; } }
+    height: 300px; }
+  .contenido-nosotros--estilo {
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    border: 2px solid #777373;
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #308f1fdf, rgba(0, 0, 0, 0.883));
+    width: 104%; }
+  .foto--database-foto {
+    padding-top: 1%;
+    height: 100%;
+    width: 105%;
+    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-bottom: 1%; }
+  .foto--it-service-foto {
+    padding-left: 1%;
+    height: 100%;
+    width: 100%; }
+  .foto--networking-foto {
+    padding-top: 1%;
+    height: 100%;
+    width: 106%;
+    border-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding-bottom: 1%;
+    /* margin-right: 5%; */ } }
