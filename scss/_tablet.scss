@@ -31,3 +31,16 @@
     .disenio1{height:96%;}
 
 }
+
+@media only screen and (min-width: 751px) and (max-width:974px)
+{
+    .contenido-nosotros--estilo{
+        color:white;padding-bottom: 2%;padding-top: 5%;border: 2px solid rgb(119, 115, 115);
+        height:100%;border-radius: 4px;background: $fondoNosotros;
+        width: 40%;
+    }  
+.foto--database-foto{/* padding-top: 1%;height:100%;width:98%; */border-radius: 4px;border-bottom-left-radius: 4px;/* padding-bottom: 1%; */}
+.foto--it-service-foto{height:100%;width:100%;padding-top: 1%;} 
+.foto--networking-foto{/* padding-top: 1%;height:100%;width:98%; */border-radius: 4px;border-bottom-left-radius: 4px;/* padding-bottom: 1%; */
+    /* margin-right: 5%; */ } 
+}
