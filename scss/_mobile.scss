@@ -152,3 +152,12 @@
     .div-www{padding-bottom: 10%;}
     .div-disk{padding-bottom: 10%;padding-top: 10%;}
 }
+
+@media only screen and (max-width: 733px) {
+    .nosotros--server2{height: 270px;} 
+    .nosotros--computer{width: 90%;height: 80%;padding-left: 10%;border-radius: 5px;}
+    .nosotros--computer2{width: 90%;height: 95%;padding-left: 10%;border-radius: 5px;padding-top:1%;}
+    .nosotros--h3-estilo{position:absolute;padding-top: 9%;padding-left: 15%;padding-right: 15%; color:rgb(229, 235, 230);
+        font-family: 'Roboto', sans-serif;font-weight:bold;font-size: 20px;text-align:center;padding-bottom: 5%;line-height: 30px;text-shadow: white 2px 2px 4px;
+    }
+}

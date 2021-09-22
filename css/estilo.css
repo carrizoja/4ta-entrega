@@ -511,46 +511,6 @@
 .container-fotos-nosotros {
   justify-content: center; }
 
-.contenido-nosotros--estilo {
-  color: white;
-  padding-bottom: 2%;
-  padding-top: 5%;
-  border: 2px solid #777373;
-  height: 100%;
-  border-radius: 4px;
-  background: linear-gradient(to bottom, #308f1fdf, rgba(0, 0, 0, 0.883));
-  width: 100%; }
-
-.contenido-nosotros-1--estilo {
-  color: white;
-  padding-bottom: 2%;
-  padding-top: 5%;
-  border: 2px solid #797777;
-  height: 98.5%;
-  border-radius: 4px;
-  padding-left: 1%;
-  margin-left: 1%;
-  margin-top: 0.5%;
-  background: linear-gradient(to bottom, #2156e9df, rgba(0, 0, 0, 0.883)); }
-
-.contenido-nosotros--estilo h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 2%;
-  padding-left: 20px;
-  padding-right: 20px; }
-
-.contenido-nosotros-1--estilo h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 5%;
-  padding-left: 20px;
-  padding-right: 20px; }
-
 .nosotros--server2 {
   width: 90%;
   padding-left: 10%;
@@ -571,16 +531,16 @@
 
 .nosotros--h3-estilo {
   position: absolute;
-  padding-top: 9%;
+  padding-top: 8%;
   padding-left: 15%;
   padding-right: 15%;
-  color: white;
+  color: #e5ebe6;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 33px;
   text-align: center;
   padding-bottom: 5%;
-  line-height: 60px;
+  line-height: 45px;
   text-shadow: white 2px 2px 4px; }
 
 /* CSS para Apple*/
@@ -836,6 +796,34 @@
     padding-bottom: 10%;
     padding-top: 10%; } }
 
+@media only screen and (max-width: 733px) {
+  .nosotros--server2 {
+    height: 270px; }
+  .nosotros--computer {
+    width: 90%;
+    height: 80%;
+    padding-left: 10%;
+    border-radius: 5px; }
+  .nosotros--computer2 {
+    width: 90%;
+    height: 95%;
+    padding-left: 10%;
+    border-radius: 5px;
+    padding-top: 1%; }
+  .nosotros--h3-estilo {
+    position: absolute;
+    padding-top: 9%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #e5ebe6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5%;
+    line-height: 30px;
+    text-shadow: white 2px 2px 4px; } }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .marketing h2 {
     font-weight: 16px;
@@ -877,21 +865,62 @@
     border-radius: 4px;
     background: linear-gradient(to bottom, #308f1fdf, rgba(0, 0, 0, 0.883));
     width: 40%; }
-  .foto--database-foto {
-    /* padding-top: 1%;height:100%;width:98%; */
-    border-radius: 4px;
-    border-bottom-left-radius: 4px;
-    /* padding-bottom: 1%; */ }
-  .foto--it-service-foto {
-    height: 100%;
-    width: 100%;
-    padding-top: 1%; }
-  .foto--networking-foto {
-    /* padding-top: 1%;height:100%;width:98%; */
-    border-radius: 4px;
-    border-bottom-left-radius: 4px;
-    /* padding-bottom: 1%; */
-    /* margin-right: 5%; */ } }
+  .nosotros--server2 {
+    height: 120%; }
+  .nosotros--computer {
+    width: 90%;
+    height: 90%;
+    padding-left: 10%;
+    border-radius: 5px; }
+  .nosotros--computer2 {
+    width: 90%;
+    height: 90%;
+    padding-left: 10%;
+    border-radius: 5px;
+    padding-top: 10%; }
+  .nosotros--h3-estilo {
+    position: absolute;
+    padding-top: 9%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #e5ebe6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5%;
+    line-height: 40px;
+    text-shadow: white 2px 2px 4px; } }
+
+@media only screen and (min-width: 975px) and (max-width: 1023px) {
+  .nosotros--server2 {
+    width: 90%;
+    padding-left: 10%;
+    padding-bottom: 0.7%;
+    border-radius: 5px; }
+  .nosotros--computer {
+    width: 117%;
+    height: 92%;
+    padding-left: 20%;
+    border-radius: 5px; }
+  .nosotros--computer2 {
+    width: 122%;
+    height: 92%;
+    padding-left: 24.5%;
+    border-radius: 5px; }
+  .nosotros--h3-estilo {
+    position: absolute;
+    padding-top: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #e5ebe6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 5%;
+    line-height: 50px;
+    text-shadow: white 2px 2px 4px; } }
 
 /* CSS para Microsoft-Linux*/
 /* variables para sección Microsoft-Linux */
