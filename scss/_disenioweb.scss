@@ -1,30 +1,65 @@
 /* CSS para Diseño Web*/
 
+
 /* variables para sección Diseño Web */
+
 
 /* Css para Diseño */
 
-$familia:'Roboto', sans-serif;
-$fondoCaja-disenio: linear-gradient(to bottom,#010008,#080350);
+$familia:'Roboto',
+sans-serif;
+$fondoCaja-disenio: linear-gradient(to bottom, #010008, #080350);
+.img-fluid {
+    border-radius: 5px;
+    padding-bottom: 2%;
+    margin-top: 3%;
+}
 
+.disenio {
+    background: linear-gradient(to left bottom, #b6b1b1, rgba(238, 232, 232, 0.883));
+    justify-content: center;
+}
 
-.img-fluid{border-radius: 5px;padding-bottom: 2%;margin-top: 3%;}
-.disenio{background: linear-gradient(to left bottom,#b6b1b1,rgba(238, 232, 232, 0.883));justify-content: center;}
-.disenio-elemento--estilo-caja{background:$fondoCaja-disenio;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
-.disenio-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
-.disenio-elemento{
-    ul{
-        margin-left: 10%;color: white;
-        font: {family:$familia;size:20px;}        
+.disenio-elemento--estilo-caja {
+    background: $fondoCaja-disenio;
+    padding-top: 2%;
+    margin-top: 3%;
+    height: 93%;
+    border-radius: 5px;
+}
+
+.disenio-elemento--estilo-h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white
+}
+
+.disenio-elemento {
+    ul {
+        margin-left: 10%;
+        color: white;
+        font: {
+            family: $familia;
+            size: 20px;
+        }
     }
-} 
-.disenio--elemento{
-    li{
-        display: flex;justify-content: center;
-    }
-} 
-.disenio-elemento--lista-estilo{list-style: none;}
+}
 
-.disenio3{height: 95%;width: 110%;}
-.disenio2{width: 100%;height:95%;}
-.disenio1{height:96%;}
+.disenio--elemento {
+    li {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.disenio-elemento--lista-estilo {
+    list-style: none;
+}
+
+.disenio1 {
+    height: 96%;
+    width: 100%;
+}
