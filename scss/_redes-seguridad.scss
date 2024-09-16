@@ -1,0 +1,43 @@
+/* CSS para Redes-Seguridad*/
+
+/* variables para sección Redes-Seguridad */
+
+/* Css para Seguridad */
+
+$familia:'Roboto', sans-serif;
+$fondoCaja-seg: linear-gradient(to bottom,#4d39d3,#080350);
+$fondoCaja-redes: linear-gradient(to bottom,#073820,#0a9649);
+
+.img-fluid{border-radius: 5px;padding-bottom: 2%;margin-top: 3%;}
+.redes-seg{background: linear-gradient(to bottom,#8d8c8c,rgba(238, 232, 232, 0.883));justify-content: center;}
+.seg-elemento--estilo-caja{background:$fondoCaja-seg;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
+.seg-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
+.seg-elemento{
+    ul{
+        margin-left: 10%;color: white;
+        font: {family:$familia;size:20px;}        
+    }
+} 
+.seg--elemento{
+    li{
+        display: flex;justify-content: center;
+    }
+} 
+.seg-elemento--lista-estilo{list-style: none;}
+
+// Css para Linux
+
+.redes-elemento--estilo-caja{background:$fondoCaja-redes;padding-top: 2%;margin-top: 3%;height: 93%;border-radius: 5px;}
+.redes-elemento--estilo-h2{font-family: 'Roboto', sans-serif;font-weight: bold;text-align: center;padding-top: 2%;padding-bottom: 2%;color:white}
+.redes-elemento{
+    ul{
+        margin-left: 10%;color: white;
+        font: {family:$familia;size:20px;}        
+    }
+} 
+.redes--elemento{
+    li{
+        display: flex;justify-content: center;
+    }
+} 
+.redes-elemento--lista-estilo{list-style: none;}
